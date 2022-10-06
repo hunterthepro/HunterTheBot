@@ -1,14 +1,14 @@
-# MAINTAINERS 
-- [Kingnandi](https://lichess.org/@/Kingnandi) and [ChessGreatPlayer](https://lichess.org/@/ChessGreatPlayer)
+# MAINTAINER 
+- HunterThePro
 
-[![Python](https://github.com/LichessBot-Coders/Lichess-Coded-Bots/actions/workflows/Python.yml/badge.svg)](https://github.com/LichessBot-Coders/Lichess-Coded-Bots/actions/workflows/Python.yml)
-[![Docker](https://github.com/LichessBot-Coders/Lichess-Coded-Bots/actions/workflows/Docker.yml/badge.svg)](https://github.com/LichessBot-Coders/Lichess-Coded-Bots/actions/workflows/Docker.yml)
+[![Python](https://github.com/hunterthepro/HunterTheBot/actions/workflows/Python.yml/badge.svg)](https://github.com/LichessBot-Coders/Lichess-Coded-Bots/actions/workflows/Python.yml)
+[![Docker](https://github.com/hunterthepro/HunterTheBot/actions/workflows/Docker.yml/badge.svg)](https://github.com/LichessBot-Coders/Lichess-Coded-Bots/actions/workflows/Docker.yml)
 # lichess-bot
 - A bridge between [Lichess API](https://lichess.org/api#tag/Bot) and bots.
-- This bot is made with Python and it is running using Docker container and is concentrated on heroku.
+- This bot is made with C++ and Python and it is running using Docker container and is concentrated on heroku.
 
 ## How to Install on Heroku
-- Import or [Fork](https://github.com/LichessBot-Coders/Lichess-Coded-Bots/fork) this repository to your Github.
+- Import or [Fork](https://github.com/hunterthepro/HunterTheBot/fork) this repository to your Github.
 - Open the `config.yml` file and insert your [API access token](https://lichess.org/account/oauth/token/create?scopes[]=bot:play&description=Lichess+Bot+Token) in to token option and commit changes over [here](/config.yml#L1).
 - Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) and [create a new app](https://dashboard.heroku.com/new-app) in Heroku. <br/>
 **Do note that in certain operating systems Heroku CLI doesn't get added to path automatically. If that's the case you'll have to add heroku to your path manually.**
@@ -53,4 +53,4 @@ Note: Make sure you download a linux binary that is supported by heroku (by defa
 **Note: You need to use `Linux x64 for modern computers` binary for Heroku.**
 
 ## Acknowledgements
-Credits to [Kingnandi](https://lichess.org/@/Kingnandi) and [ChessGreatPlayer](https://lichess.org/@/ChessGreatPlayer). They helped to collaborate and make this repository it contains codes of them and it is the best lichess repository to run bot in lichess by heroku server and a modified version of ShailChoksi.
+Credits to HunterThePro - https://lichess.org/@/CreativeWinning. He helped to collaborate and make this repository it contains codes of them and it is the best lichess repository to run bot in lichess by heroku server and a modified version of ShailChoksi's version of the Lichess Bot.
