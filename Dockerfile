@@ -1,6 +1,6 @@
 FROM debian:stable-slim
-MAINTAINER RAVIHARAV
-RUN echo RAVIHARAV
+MAINTAINER HUNTERTHEPRO
+RUN echo HUNTERTHEPRO
 COPY . .
 COPY requirements.txt .
 
